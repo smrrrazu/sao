@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '35eb5ff609049337ccdc3b1749b57af69542abf0');
-define('SECURE_AUTH_KEY',  '96718429cbf3825b6d14097d58da40d72302f210');
-define('LOGGED_IN_KEY',    'e9140bf4bd2dd963be5a18c3f1a7755a838c1d1e');
-define('NONCE_KEY',        'ceb20342c2fab67f6b0bc2c0713b164ada83fa0b');
-define('AUTH_SALT',        'a09ed7ea02a4e068a8cd9bd79f743f5278e7fa23');
-define('SECURE_AUTH_SALT', '8dfa05d08927275fb4dd7b5afd025ff306fa55ce');
-define('LOGGED_IN_SALT',   '1042d4d7f24e6e4d2c77730bfa97a09e4313807c');
-define('NONCE_SALT',       '32b4f46afe15b9586047304110a881d21036680e');
+define('AUTH_KEY',         '65c19d73a2fb84625a7cfef63719180d45cf6b7e');
+define('SECURE_AUTH_KEY',  'aec8a6dd19f79e7543b5d10a1d8a3a11ef0df638');
+define('LOGGED_IN_KEY',    '0ee4034e035ba4527bf3c95d6681f581ce31406d');
+define('NONCE_KEY',        '8795e84cf0eb59aee4478b6b3bbafd910d813190');
+define('AUTH_SALT',        '39fb993e6c1b79a3e488861072669aee20345413');
+define('SECURE_AUTH_SALT', 'f0375dc17a58110efb8181ed751e2a0c5bd14ae8');
+define('LOGGED_IN_SALT',   'e60dc961c41b5ea23e65ef91cdd15db1c4d617fa');
+define('NONCE_SALT',       '72277394c627b57bf2fc4a0dbff00f8438c957f6');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('NONCE_SALT',       '32b4f46afe15b9586047304110a881d21036680e');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'sao_wp';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
